@@ -1,0 +1,18 @@
+{
+    "prompt_patterns": [
+        "{\"text\": \"(.*?)\", \"clip\":",
+        "Text Prompt (JPS)}, \"widgets_values\": [\"(.*?)\"]",
+        "{\"inputs\": {\"text\": \"(.*?)\"}",
+        "[\"\", \"(.*?)\"]"
+    ],
+    "model_patterns": [
+        "UnetLoaderGGUFAdvanced}, \"widgets_values\": [\"(.*?)\"]",
+        "UNETLoader}, \"widgets_values\": [\"(.*?)\"]",
+        "{\"inputs\": {\"unet_name\": \"(.*?)\"",
+        "\"CheckpointLoaderSimple\"}, \"widgets_values\": [\"(.*?)\"]",
+        "{\"inputs\": {\"ckpt_name\": \"(.*?)\"}"
+    ],
+    "lora_patterns": [
+        "{\"inputs\": {\"lora_name\": \"(.*?)\""
+    ]
+}
