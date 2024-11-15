@@ -3,7 +3,9 @@
         "{\"text\": \"(.*?)\", \"clip\":",
         "Text Prompt (JPS)}, \"widgets_values\": [\"(.*?)\"]",
         "{\"inputs\": {\"text\": \"(.*?)\"}",
-        "[\"\", \"(.*?)\"]"
+        "[\"\", \"(.*?)\"]",
+        "text_positive_l\": \"(.*?)\",",
+        "parameters: (.*?)Negative prompt"
     ],
     "model_patterns": [
         "UnetLoaderGGUFAdvanced}, \"widgets_values\": [\"(.*?)\"]",
