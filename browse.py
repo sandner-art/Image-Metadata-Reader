@@ -101,7 +101,7 @@ with gr.Blocks() as iface:
                 image_input = gr.Image(type="pil", label="Upload Image")
             with gr.Column():
                 prompt_output = gr.Textbox(label="Prompt", lines=20, interactive=False)
-                resolution_output = gr.Textbox(label="Resolution", lines=1, interactive=False)
+                resolution_output = gr.Textbox(label="Resolution, Model, LoRA", lines=1, interactive=False)
         submit_button = gr.Button("Get Metadata")
         gr.Markdown("sandner.art | [Creative AI/ML Research](https://github.com/sandner-art)")
     with gr.Tab("Full Metadata"):
@@ -115,4 +115,4 @@ with gr.Blocks() as iface:
     )
 
 # Launch the interface
-iface.launch()
+iface.launch(inbrowser=True)
